@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Minha Empresa</div>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <div class="container">
+                <h1>Sobre Nós</h1>
+                <p>Um pouco sobre a nossa empresa...</p>
+            </div>
+        </section>
+        
+        <section id="servicos">
+            <div class="container">
+                <h1>Serviços</h1>
+                <p>Conheça nossos serviços...</p>
+            </div>
+        </section>
+        
+        <section id="contato">
+            <div class="container">
+                <h1>Contato</h1>
+                <form id="contact-form" action="https://api.sheetmonkey.io/form/kkbUXVjnoCuZYqNQuQkkwz" method="post">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="phone">Telefone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+        
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Minha Empresa. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
