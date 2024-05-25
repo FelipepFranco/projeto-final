@@ -241,6 +241,11 @@ footer p {
 }
 
 
+.container-home {
+    z-index: 2;
+}
+
+
 /* Consultas de Mídia para Responsividade */
 @media only screen and (max-width: 768px) {
     .container {
@@ -255,6 +260,17 @@ footer p {
     nav ul li {
         margin: 10px 0;
     }
+
+    #vantagens {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .container-p {
+        width: 70%;
+    }
 }
 
 @media only screen and (max-width: 576px) {
@@ -265,7 +281,32 @@ footer p {
 
 /* Main com divs sobre e vantagens */
 
+#vantagens {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    /* height: 100%; */
+}
+
 .container-p {
     z-index: 2;
+    width: 25dvw;
+    border: solid 1px rgba(255, 255, 255, 0.521);
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.btn-show {
+    display: none;
+}
+
+.container-p:hover + .btn-show {
+    display: block;
+}
+
+     
 
