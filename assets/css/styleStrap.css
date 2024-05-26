@@ -6,6 +6,16 @@
     background-color: #772626;
 }
 
+.btn-primary-dark {
+    background-color: #0050a5;
+    color: white;
+}
+
+.btn-primary-dark:hover {
+    background-color: #007BFF;
+    color: white;
+}
+
 .text-white {
     color: white;
 }
@@ -80,32 +90,6 @@
 .carousel-control-prev, .carousel-control-next {
     width: 6%;
 }
-/* .carousel-indicators {
-    position: absolute;
-    bottom: -30px;
-    left: 50%;
-    transform: translateX(-50%);
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-.carousel-indicators li {
-    width: 1px;
-    height: 5px;
-    background-color: #000;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.carousel-indicators li::after {
-    content: '';
-    display: none; 
-}
-.carousel-indicators .active {
-    background-color: #fff;
-} */
 
 .content-testimonial {
     padding: 0px 30px;

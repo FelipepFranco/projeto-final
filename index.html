@@ -65,7 +65,7 @@
         <h1 class="fw-semibold fs-5 text-white"><span style="color: #7CAED4">||</span> Batata</h1>
         <p class="fs-1 fw-bold">Transforme Sua <br>Visão em <span style="color: #7CAED4">Realidade</span></p>
         <p class="fw-semibold">Experiência e Inovação Tecnológica ao Seu Alcance</p>
-        <button class="border-white btn btn-primary fw-semibold">Conheça nossos produtos</button>
+        <button class="btn btn-primary-dark fw-semibold text-white fs-6">Conheça nossos produtos</button>
       </div>
     </section>
 
@@ -80,7 +80,7 @@
             <i class="bi bi-pc-display-horizontal fs-1 mb-3 text-white"></i>
             <h5 class="card-title text-white">Batata_$1</h5>
             <p class="card-text text-secondary">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary btn-show animate__animated animate__fadeInUp">Go somewhere</a>
+            <a href="#" class="btn btn-primary-dark btn-show animate__animated animate__fadeInUp">Go somewhere</a>
           </div>
         </div>
 
@@ -89,7 +89,7 @@
             <i class="bi bi-images fs-1 mb-3 text-white"></i>
             <h5 class="card-title text-white">Batata_$2</h5>
             <p class="card-text text-secondary">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary btn-show animate__animated animate__fadeInUp">Go somewhere</a>
+            <a href="#" class="btn btn-primary-dark btn-show animate__animated animate__fadeInUp">Go somewhere</a>
           </div>
         </div>
 
@@ -98,7 +98,7 @@
             <i class="bi bi-film fs-1 mb-3 text-white"></i>
             <h5 class="card-title text-white">Batata_$3</h5>
             <p class="card-text text-secondary">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary btn-show animate__animated animate__fadeInUp">Go somewhere</a>
+            <a href="#" class="btn btn-primary-dark btn-show animate__animated animate__fadeInUp">Go somewhere</a>
           </div>
         </div>
 
@@ -205,11 +205,11 @@
     <!-- ====== Fim Testimonial Section ====== -->
 
     <!-- ====== Form Section ======= -->
-    <section>
+    <section class="section-form">
 
       <form class="form" id="contact-form" action="https://api.sheetmonkey.io/form/kkbUXVjnoCuZYqNQuQkkwz" method="post">
         <p class="title">Registro </p>
-        <p class="message">Nossa equipe está pronta para atende-lo, Preencha o Formulario abaixo!</p>
+        <p class="message">Nossa equipe está pronta para atende-lo,<br> Preencha o Formulario abaixo!</p>
             <!-- <div class="flex">
               <label>
                   <input required placeholder="" type="text" id="name" name="name" class="input">
@@ -226,19 +226,18 @@
             <input required="" placeholder="" type="email" class="input" id="email" name="email">
             <span>Email</span>
           </label>  -->
-        <label for="name">Nome:</label>
-        <input type="text" id="name" name="name" required>
-        <label for="company">Empresa:</label>
-        <input type="text" id="company" name="company" required>
-        <label for="phone">Telefone:</label>
-        <input type="tel" id="phone" name="phone" required>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        <label for="message">Mensagem:</label>
-        <textarea id="message" name="message" required></textarea> 
+        <label for="name" class="label-form">Nome:</label>
+        <input type="text" id="name" name="name" class="input-form" required>
+        <label for="company" class="label-form">Empresa:</label>
+        <input type="text" id="company" name="company" class="input-form" required>
+        <label for="phone" class="label-form">Telefone:</label>
+        <input type="tel" id="phone" name="phone" class="input-form" required>
+        <label for="email" class="label-form">Email:</label>
+        <input type="email" id="email" name="email" class="input-form" required>
+        <label for="message" class="label-form">Mensagem:</label>
+        <textarea id="message" name="message" class="input-form" required></textarea> 
         <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
-        <button class="submit">Enviar</button>
-        <br>
+        <button class="submit btn btn-primary-dark fw-semibold fs-6">Enviar</button>
       </form>
     </section>
     <!-- ====== End Form Section ======= -->
@@ -264,10 +263,8 @@
     </section> -->
   </main>
 
-  <footer class="bg-darkBlue">
-    <div class="container text-white">
-      <p>&copy; 2024 Minha Empresa. Todos os direitos reservados.</p>
-    </div>
+  <footer class="bg-darkBlue text-white bg-darkBlue copyright">
+    <p>&copy; 2024 Minha Empresa. Todos os direitos reservados.</p>
   </footer>
 
 
