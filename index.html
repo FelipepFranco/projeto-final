@@ -3,22 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <!-- BootStrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <!-- FontAwesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha384-7zFJ0BPHRtT1v+0ZKkRb50G5ndJtnd7F3ifkebFfkfF3RvxHD9c5Bv7KRKBOtLZu" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- Icones BootStrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- Animation CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
   <!-- CSS -->
   <link rel="stylesheet" href="assets/css/styleStrap.css">
   <link rel="stylesheet" href="assets/css/style.css">
-  <title>Batata</title>
+ 
+  <!-- Title -->
+  <title class="fs-1 fw-bold">Batata</title>
 </head>
 
 <body>
   <header class="bg-darkBlue fixed-top">
     <nav class="navbar navbar-expand-lg  header-expand">
       <div class="container-fluid">
-        <a class="navbar-brand text-white" href="#">Batata</a>
+        <a class="navbar-brand text-white fs-3 fw-bold" href="#">Batata</a>
         <button class="navbar-toggler border border-white text-white " type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false"
         aria-label="Toggle navigation">
@@ -55,7 +62,7 @@
     
     <section id="sobre">
       <div class="container-home text-white">
-        <h1 class="fw-fw-semibold fs-3"><span style="color: #7CAED4">||</span> Batata</h1>
+        <h1 class="fw-semibold fs-5 text-white"><span style="color: #7CAED4">||</span> Batata</h1>
         <p class="fs-1 fw-bold">Transforme Sua <br>Visão em <span style="color: #7CAED4">Realidade</span></p>
         <p class="fw-semibold">Experiência e Inovação Tecnológica ao Seu Alcance</p>
         <button class="border-white btn btn-primary fw-semibold">Conheça nossos produtos</button>
@@ -65,93 +72,178 @@
     <!-- CARDS DE VANTAGENS -->
     <section id="vantagens">
 
-      <div class="card text-center container-p" style="width: 20rem;">
-        <div class="card-body">
-          <i class="fas fa-user"></i>
-          <h5 class="card-title text-white">Batata</h5>
-          <p class="card-text text-white">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="btn btn-primary btn-show" onmouseover="showButton()">Go somewhere</a>
-        </div>
-      </div>
+      <p class="text-white fs-2 fw-semibold w-100" style="z-index: 2;">O que Oferecemos?</p>
+      <div class="cards-v w-100">
 
-      <div class="card text-center container-p" style="width: 20rem;">
-        <div class="card-body">
-          <h5 class="card-title text-white">Batata</h5>
-          <p class="card-text text-white">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="btn btn-primary btn-show" onmouseover="showButton()">Go somewhere</a>
-          
+        <div class="card text-center container-p col-4" style="width: 20rem;">
+          <div class="card-body">
+            <i class="bi bi-pc-display-horizontal fs-1 mb-3 text-white"></i>
+            <h5 class="card-title text-white">Batata_$1</h5>
+            <p class="card-text text-secondary">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary btn-show animate__animated animate__fadeInUp">Go somewhere</a>
+          </div>
         </div>
-      </div>
 
-      <div class="card text-center container-p" style="width: 20rem;">
-        <div class="card-body">
-          <h5 class="card-title text-white">Batata</h5>
-          <p class="card-text text-white">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="btn btn-primary btn-show" onmouseover="showButton()">Go somewhere</a>
+        <div class="card text-center container-p" style="width: 20rem;">
+          <div class="card-body">
+            <i class="bi bi-images fs-1 mb-3 text-white"></i>
+            <h5 class="card-title text-white">Batata_$2</h5>
+            <p class="card-text text-secondary">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary btn-show animate__animated animate__fadeInUp">Go somewhere</a>
+          </div>
         </div>
+
+        <div class="card text-center container-p" style="width: 20rem;">
+          <div class="card-body">
+            <i class="bi bi-film fs-1 mb-3 text-white"></i>
+            <h5 class="card-title text-white">Batata_$3</h5>
+            <p class="card-text text-secondary">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary btn-show animate__animated animate__fadeInUp">Go somewhere</a>
+          </div>
+        </div>
+
       </div>
 
     </section>
 
-    <section id="depoimentos">
-      <div class="container text-white">
-        <h1>Depoimentos</h1>
-        <div class="container">
-          <header>
-            <h2 class="title bg-primary p-2 ">Depoimentos de quem já passou por aqui</h2>
-          </header>
-          <div class="depoimentos swiper-container">
-            <div class="swiper-wrapper">
-              <div class="depoimento swiper-slide">
-                <blockquote>
-                  <p>
-                    <span>&ldquo;</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum blanditiis saepe
-                    nam excepturi explicabo ipsa error ipsam neque
-                  </p>
-                  <cite>
-                    <img src="https://randomuser.me/api/portraits/men/7.jpg" alt="Foto de Wanessa Souza" />
-                    Wagner Souza
-                  </cite>
-                </blockquote>
-              </div>
-
-              <div class="depoimento swiper-slide">
-                <blockquote>
-                  <p>
-                    <span>&ldquo;</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum blanditiis saepe
-                    nam excepturi explicabo ipsa error ipsam neque
-                  </p>
-                  <cite>
-                    <img src="https://randomuser.me/api/portraits/men/29.jpg" alt="Foto de Franciele Venega" />
-                    Francisco Venega
-                  </cite>
-                </blockquote>
-              </div>
-
-              <div class="depoimento swiper-slide">
-                <blockquote>
-                  <p>
-                    <span>&ldquo;</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum blanditiis saepe
-                    nam excepturi explicabo ipsa error ipsam neque
-                  </p>
-                  <cite>
-                    <img src="https://randomuser.me/api/portraits/men/47.jpg" alt="Fotos de Valeska Fabris" />
-                    Valter Fabris
-                  </cite>
-                </blockquote>
+    <!-- ====== Testimonial Section ====== -->
+    
+    <section class="bg-light bg-testimonial">
+      <p class="text-dark fs-2 fw-semibold w-100 text-center" style="z-index: 2; margin-bottom: -10px;">Depoimentos</p>
+      <div class="testimonial section-padding">
+        <div class="container position-relative shadow-lg p-3 mb-5 rounded" style="background-color: #141414;">
+          <div class="testimonial-slide">
+            <div id="carousel-testimonial" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="d-flex justify-content-center">
+                    <div class="text-center">
+                      <div class="image">
+                        <img src="https://randomuser.me/api/portraits/men/7.jpg" alt="Foto de Wanessa Souza" />
+                      </div>
+                      <div class="rating">
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-half text-warning"></i>
+                      </div>
+                      <div class="content content-testimonial">
+                        <p class="text-secondary">Mussum Ipsum, cacilds vidis litro abertis. Quem manda na minha terra sou euzis! Paisis, filhis, espiritis santis. Pellentesque nec nulla ligula. Donec gravida turpis a vulputate ultricies. Copo furadis é disculpa de bebadis, arcu quam euismod magna.</p>
+                        <h4 class="fs-4">Wagner Souza</h4>
+                        <h5 class="fs-6 text-secondary">Assistente de vendas</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-flex justify-content-center">
+                    <div class="text-center">
+                      <div class="image">
+                        <img src="https://randomuser.me/api/portraits/men/29.jpg" alt="Foto de Franciele Venega" />
+                      </div>
+                      <div class="rating">
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                      </div>
+                      <div class="content content-testimonial">
+                        <p class="text-secondary">Mussum Ipsum, cacilds vidis litro abertis. Quem manda na minha terra sou euzis! Paisis, filhis, espiritis santis. Pellentesque nec nulla ligula. Donec gravida turpis a vulputate ultricies. Copo furadis é disculpa de bebadis, arcu quam euismod magna.</p>
+                        <h4 class="fs-4">Richard Leandro</h4>
+                        <h5 class="fs-6 text-secondary">Web developer</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-flex justify-content-center">
+                    <div class="text-center">
+                      <div class="image">
+                        <img src="https://randomuser.me/api/portraits/men/47.jpg" alt="Foto de Valeska Fabris" />
+                      </div>
+                      <div class="rating">
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-half text-warning"></i>
+                      </div>
+                      <div class="content content-testimonial">
+                        <p class="text-secondary">Mussum Ipsum, cacilds vidis litro abertis. Quem manda na minha terra sou euzis! Paisis, filhis, espiritis santis. Pellentesque nec nulla ligula. Donec gravida turpis a vulputate ultricies. Copo furadis é disculpa de bebadis, arcu quam euismod magna.</p>
+                        <h4 class="fs-4">Junir Santana</h4>
+                        <h6 class="fs-6 text-secondary">Analista Comercial</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-
-          <!-- If we need pagination -->
-          <div class="swiper-scrollbar" style="text-align: center;"></div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel-testimonial" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel-testimonial" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+          <!-- <ol class="carousel-indicators">
+            <li data-bs-target="#carousel-testimonial" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#carousel-testimonial" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carousel-testimonial" data-bs-slide-to="2"></li>
+          </ol> -->
         </div>
-
-      </div>
+        <div class="text-center" style="margin: 20px 0px -50px 0px;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-quote text-dark" viewBox="0 0 16 16">
+            <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"/>
+          </svg>
+        </div>
       </div>
     </section>
+    <!-- ====== Fim Testimonial Section ====== -->
 
-    <section id="contato">
+    <!-- ====== Form Section ======= -->
+    <section>
+
+      <form class="form" id="contact-form" action="https://api.sheetmonkey.io/form/kkbUXVjnoCuZYqNQuQkkwz" method="post">
+        <p class="title">Registro </p>
+        <p class="message">Nossa equipe está pronta para atende-lo, Preencha o Formulario abaixo!</p>
+            <!-- <div class="flex">
+              <label>
+                  <input required placeholder="" type="text" id="name" name="name" class="input">
+                  <span>Primeiro Nome</span>
+              </label>
+      
+              <label>
+                  <input required="" placeholder="" type="text" class="input" id="sobrenome" name="sobrenome">
+                  <span>Ultimo Nome</span>
+              </label>
+          </div>  
+
+          <label>
+            <input required="" placeholder="" type="email" class="input" id="email" name="email">
+            <span>Email</span>
+          </label>  -->
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="company">Empresa:</label>
+        <input type="text" id="company" name="company" required>
+        <label for="phone">Telefone:</label>
+        <input type="tel" id="phone" name="phone" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message" required></textarea> 
+        <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+        <button class="submit">Enviar</button>
+        <br>
+      </form>
+    </section>
+    <!-- ====== End Form Section ======= -->
+
+    <!-- <section id="contato">
       <div class="container">
         <h1 class="text-white">Contato</h1>
         <form id="contact-form" action="https://api.sheetmonkey.io/form/kkbUXVjnoCuZYqNQuQkkwz" method="post">
@@ -169,7 +261,7 @@
           <button type="submit">Enviar</button>
         </form>
       </div>
-    </section>
+    </section> -->
   </main>
 
   <footer class="bg-darkBlue">
@@ -184,10 +276,8 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-    <script src="assets/js/main.js"></script>
+  <script src="assets/js/main.js"></script>
 
 </body>
