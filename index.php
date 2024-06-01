@@ -108,7 +108,7 @@
 
     <!-- ====== Testimonial Section ====== -->
     
-    <section class="bg-light bg-testimonial">
+    <section class="bg-light bg-testimonial" id="depoimentos">
       <p class="text-dark fs-2 fw-semibold w-100 text-center" style="z-index: 2; margin-bottom: -10px;">Depoimentos</p>
       <div class="testimonial section-padding">
         <div class="container position-relative shadow-lg p-3 mb-5 rounded" style="background-color: #141414;">
@@ -205,38 +205,22 @@
     <!-- ====== Fim Testimonial Section ====== -->
 
     <!-- ====== Form Section ======= -->
-    <section class="section-form">
+    <section class="section-form" id="contato">
 
-      <form class="form" id="contact-form" action="https://api.sheetmonkey.io/form/kkbUXVjnoCuZYqNQuQkkwz" method="post">
+      <form class="form" id="contact-form" action="cadastro.php" method="post">
         <p class="title">Registro </p>
         <p class="message">Nossa equipe está pronta para atende-lo,<br> Preencha o Formulario abaixo!</p>
-            <!-- <div class="flex">
-              <label>
-                  <input required placeholder="" type="text" id="name" name="name" class="input">
-                  <span>Primeiro Nome</span>
-              </label>
-      
-              <label>
-                  <input required="" placeholder="" type="text" class="input" id="sobrenome" name="sobrenome">
-                  <span>Ultimo Nome</span>
-              </label>
-          </div>  
-
-          <label>
-            <input required="" placeholder="" type="email" class="input" id="email" name="email">
-            <span>Email</span>
-          </label>  -->
-        <label for="name" class="label-form">Nome:</label>
-        <input type="text" id="name" name="name" class="input-form" required>
-        <label for="company" class="label-form">Empresa:</label>
-        <input type="text" id="company" name="company" class="input-form" required>
-        <label for="phone" class="label-form">Telefone:</label>
-        <input type="tel" id="phone" name="phone" class="input-form" required>
+   
+        <label for="nome" class="label-form">Nome:</label>
+        <input type="text" id="nome" name="nome" class="input-form" required>
+        <label for="nome_empresa" class="label-form">Empresa:</label>
+        <input type="text" id="nome_empresa" name="nome_empresa" class="input-form" required>
+        <label for="telefone" class="label-form">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" class="input-form" required>
         <label for="email" class="label-form">Email:</label>
         <input type="email" id="email" name="email" class="input-form" required>
-        <label for="message" class="label-form">Mensagem:</label>
-        <textarea id="message" name="message" class="input-form" required></textarea> 
-        <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+        <label for="mensagem" class="label-form">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" class="input-form" required></textarea> 
         <button class="submit btn btn-primary-dark fw-semibold fs-6">Enviar</button>
       </form>
     </section>
