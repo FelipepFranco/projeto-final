@@ -101,18 +101,11 @@ section {
 
 #contato {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #0b0c0c;
-}
-
-#contato form{
-    display: flex;
-    padding: 15px;
+    padding: 30px 15px;
     gap: 15px;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    background-color: #e4e4e4;
 }
 #contato button{
     width: 150px;
@@ -134,6 +127,27 @@ h1 {
 
 p {
     margin-bottom: 20px;
+}
+
+#historia {
+    width: 80dvw;
+    max-width: 1300px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+}
+
+.img-historia {
+    width: 400px;
+    height: 400px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    border: 1px solid #272727;
+    margin-right: 30px;
+}
+
+.container-hist {
+    width: 40dvw;
 }
 
 /* Formulário */
@@ -191,6 +205,14 @@ footer p {
 #depoimentos {
     justify-content: center;
     display: flex;
+    flex-direction: column;
+}
+
+.testimonial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 #depoimentos .container {
@@ -327,7 +349,7 @@ footer p {
 .section-form {
     padding: 40px 0px;
     margin-bottom: 0;
-    background-color: #e4e4e4;
+    background-color: #e7e7e7;
 }
 
 .form {

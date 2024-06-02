@@ -16,6 +16,11 @@
   <!-- CSS -->
   <link rel="stylesheet" href="assets/css/styleStrap.css">
   <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- InputMask e Jquery -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script> -->
+  <!-- <script src="dist/jquery.inputmask.js"></script> -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/inputmask/5.0.7-beta.19/inputmask.min.js"></script> -->
  
   <!-- Title -->
   <title class="fs-1 fw-bold">Batata</title>
@@ -66,6 +71,18 @@
         <p class="fs-1 fw-bold">Transforme Sua <br>Visão em <span style="color: #7CAED4">Realidade</span></p>
         <p class="fw-semibold">Experiência e Inovação Tecnológica ao Seu Alcance</p>
         <button class="btn btn-primary-dark fw-semibold text-white fs-6">Conheça nossos produtos</button>
+      </div>
+    </section>
+    
+    <section>
+      <div id="historia" class="d-flex p-2 bd-highlight flex-row justify-content-around align-items-center">
+        <div>
+          <img src="https://c.wallhere.com/photos/a0/44/processor_cpu_upgrade_installation_chip_robot-783986.jpg!d" alt="imagem_complementar_sobre" class="img-historia">
+        </div>
+        <div class="container-hist text-white">
+          <h1 class="fw-semibold fs-1 text-white">Sobre</h1>
+          <p class="fw-normal text-secondary">Mussum Ipsum, cacilds vidis litro abertis. Não sou faixa preta cumpadi, sou preto inteiris, inteiris. Quem num gosta di mim que vai caçá sua turmis! Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Negão é teu passadis, eu sou faxa pretis. Não sou faixa preta cumpadi, sou preto inteiris, inteiris. Quem num gosta di mim que vai caçá sua turmis! Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Negão é teu passadis, eu sou faxa pretis.</p>
+        </div>
       </div>
     </section>
 
@@ -216,7 +233,7 @@
         <label for="nome_empresa" class="label-form">Empresa:</label>
         <input type="text" id="nome_empresa" name="nome_empresa" class="input-form" required>
         <label for="telefone" class="label-form">Telefone:</label>
-        <input type="tel" id="telefone" name="telefone" class="input-form" required>
+        <input type='text' id="telefone" name="telefone" class="input-form" required>
         <label for="email" class="label-form">Email:</label>
         <input type="email" id="email" name="email" class="input-form" required>
         <label for="mensagem" class="label-form">Mensagem:</label>
@@ -250,6 +267,17 @@
   <footer class="bg-darkBlue text-white bg-darkBlue copyright">
     <p>&copy; 2024 Minha Empresa. Todos os direitos reservados.</p>
   </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Aplica a máscara de telefone
+      var inputTelefone = document.getElementById('telefone');
+      Inputmask({
+          mask: ["(99) 9999-9999", "(99) 99999-9999"],
+          keepStatic: true
+      }).mask(inputTelefone);
+    });
+  </script>
 
 
   <!-- Script Src -->
