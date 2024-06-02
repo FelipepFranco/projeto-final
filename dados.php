@@ -1,3 +1,15 @@
+<head>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-sBlY7/1Wy90Orsnj3AZUPEK+7RZVccRBHGe+/TVUPXjGL7rdoR1d5zkD46pyeX7h" crossorigin="anonymous"></script>
+    
+    <!-- DataTables JS -->
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.4/js/dataTables.bootstrap5.min.js"></script>
+</head> 
+
 <?php
     session_start();
     include_once("config.php");
@@ -19,11 +31,11 @@
 
     <title>Dados</title>
 </head>
-<body style='background-color: #212529'>
+<body class=" d-flex flex-column justify-content-center align-items-center vh-100" style="background-color: #212529;">
     <div class='d-flex p-2 bd-highlight border-bottom border-white'>
         <h2 class='text-white fs-2 fw-semibold w-100'>Dados Clientes</h2>
     </div>
-    <table class='table table-dark table-striped'>
+    <table class='table table-dark table-striped' id="tabela">
         <thead>
             <tr>
                 <th scope="col">id</th>
@@ -62,3 +74,11 @@
 
 </body>
 </html>
+
+<script>
+        $(document).ready(function() {
+            $('#tabela').DataTable({
+                "ordering": false
+            });
+        });
+</script>
