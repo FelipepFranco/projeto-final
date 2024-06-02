@@ -12,6 +12,12 @@
 
 <?php
     session_start();
+
+    if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true) {
+        // Redireciona para a página de login
+        header('Location: http://localhost/projeto-final-main/login.php');
+        exit;
+    }
     include_once("config.php");
 
     $sql = "SELECT * FROM cadastro ORDER BY id DESC";
