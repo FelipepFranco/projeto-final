@@ -81,7 +81,7 @@
         </div>
         <div class="container-hist text-white">
           <h1 class="fw-semibold fs-1 text-white">Sobre</h1>
-          <p class="fw-normal text-secondary">Mussum Ipsum, cacilds vidis litro abertis. Não sou faixa preta cumpadi, sou preto inteiris, inteiris. Quem num gosta di mim que vai caçá sua turmis! Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Negão é teu passadis, eu sou faxa pretis. Não sou faixa preta cumpadi, sou preto inteiris, inteiris. Quem num gosta di mim que vai caçá sua turmis! Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Negão é teu passadis, eu sou faxa pretis.</p>
+          <p class="fw-normal text-secondary">Na Batata, somos pioneiros na vanguarda da tecnologia, convertendo visões em realidade digital. Nossa equipe altamente qualificada e apaixonada oferece soluções personalizadas em desenvolvimento de sistemas, design gráfico e edição de vídeo. Valorizamos a colaboração e a inovação, trabalhando lado a lado com nossos clientes para garantir que suas expectativas sejam não apenas atendidas, mas superadas. Com um compromisso inabalável com a excelência e a adaptação constante às últimas tendências tecnológicas, na Batata, estamos moldando o futuro digital.</p>
         </div>
       </div>
     </section>
@@ -95,27 +95,27 @@
         <div class="card text-center container-p col-4" style="width: 20rem;">
           <div class="card-body">
             <i class="bi bi-pc-display-horizontal fs-1 mb-3 text-white"></i>
-            <h5 class="card-title text-white">Batata_$1</h5>
-            <p class="card-text text-secondary">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary-dark btn-show animate__animated animate__fadeInUp">Go somewhere</a>
+            <h5 class="card-title text-white">Sites e Sistemas</h5>
+            <p class="card-text text-secondary">Criação de Sites como plataformas online e Sistemas para representar sua empresa ou projeto. O objetivo é criar uma experiência de usuário intuitiva e responsiva que reflete a identidade da empresa além de solucionar problemas e otimizar processos.</p>
+            <a href="#" class="btn btn-primary-dark btn-show animate_animated animate_fadeInUp">Go somewhere</a>
           </div>
         </div>
 
         <div class="card text-center container-p" style="width: 20rem;">
           <div class="card-body">
             <i class="bi bi-images fs-1 mb-3 text-white"></i>
-            <h5 class="card-title text-white">Batata_$2</h5>
-            <p class="card-text text-secondary">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary-dark btn-show animate__animated animate__fadeInUp">Go somewhere</a>
+            <h5 class="card-title text-white">Design</h5>
+            <p class="card-text text-secondary">A criação de design engloba a elaboração de elementos visuais e gráficos que representam a marca ou o projeto. Isso inclui o design de logotipos, identidade visual, materiais de marketing, interfaces de usuário e entre outros elementos visuais.</p>
+            <a href="#" class="btn btn-primary-dark btn-show animate_animated animate_fadeInUp">Go somewhere</a>
           </div>
         </div>
 
         <div class="card text-center container-p" style="width: 20rem;">
           <div class="card-body">
             <i class="bi bi-film fs-1 mb-3 text-white"></i>
-            <h5 class="card-title text-white">Batata_$3</h5>
-            <p class="card-text text-secondary">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary-dark btn-show animate__animated animate__fadeInUp">Go somewhere</a>
+            <h5 class="card-title text-white">Edição e Vídeo</h5>
+            <p class="card-text text-secondary">Edição de vídeo envolve o processo de manipular e combinar elementos de vídeo, como cenas, clipes e efeitos visuais, para criar um produto final coeso e envolvente. Isso pode incluir a adição de trilhas sonoras, efeitos especiais, legendas e transições.</p>
+            <a href="#" class="btn btn-primary-dark btn-show animate_animated animate_fadeInUp">Go somewhere</a>
           </div>
         </div>
 
@@ -146,7 +146,7 @@
                         <i class="bi bi-star-half text-warning"></i>
                       </div>
                       <div class="content content-testimonial">
-                        <p class="text-secondary">Mussum Ipsum, cacilds vidis litro abertis. Quem manda na minha terra sou euzis! Paisis, filhis, espiritis santis. Pellentesque nec nulla ligula. Donec gravida turpis a vulputate ultricies. Copo furadis é disculpa de bebadis, arcu quam euismod magna.</p>
+                        <p class="text-secondary">A Batata é uma verdadeira parceira no processo criativo. Sua abordagem inovadora e expertise em design gráfico elevaram significativamente a qualidade de nossos projetos. Além disso, a comunicação transparente e a capacidade de entrega dentro do prazo são pontos fortes da equipe. Estamos impressionados com o nível de compromisso e profissionalismo que a Batata traz para cada projeto.</p>
                         <h4 class="fs-4">Wagner Souza</h4>
                         <h5 class="fs-6 text-secondary">Assistente de vendas</h5>
                       </div>
@@ -167,7 +167,7 @@
                         <i class="bi bi-star-fill text-warning"></i>
                       </div>
                       <div class="content content-testimonial">
-                        <p class="text-secondary">Mussum Ipsum, cacilds vidis litro abertis. Quem manda na minha terra sou euzis! Paisis, filhis, espiritis santis. Pellentesque nec nulla ligula. Donec gravida turpis a vulputate ultricies. Copo furadis é disculpa de bebadis, arcu quam euismod magna.</p>
+                        <p class="text-secondary">A parceria com a Batata foi fundamental para o sucesso de nossos projetos digitais. A equipe demonstrou uma habilidade excepcional em compreender nossas necessidades e traduzi-las em soluções tecnológicas de alta qualidade. A atenção ao detalhe e a paixão pela inovação são evidentes em cada entrega. Recomendo fortemente a Batata para qualquer empresa que busca uma abordagem inovadora e confiável para o desenvolvimento digital.</p>
                         <h4 class="fs-4">Richard Leandro</h4>
                         <h5 class="fs-6 text-secondary">Web developer</h5>
                       </div>
@@ -188,7 +188,7 @@
                         <i class="bi bi-star-half text-warning"></i>
                       </div>
                       <div class="content content-testimonial">
-                        <p class="text-secondary">Mussum Ipsum, cacilds vidis litro abertis. Quem manda na minha terra sou euzis! Paisis, filhis, espiritis santis. Pellentesque nec nulla ligula. Donec gravida turpis a vulputate ultricies. Copo furadis é disculpa de bebadis, arcu quam euismod magna.</p>
+                        <p class="text-secondary">Trabalhar com a Batata foi uma experiência transformadora para nossa empresa. Eles não apenas desenvolveram sistemas eficientes e escaláveis, mas também ofereceram uma orientação estratégica valiosa em relação à nossa infraestrutura tecnológica. A equipe da Batata é altamente profissional e comprometida com a excelência. Estamos extremamente satisfeitos com os resultados e ansiosos para continuar nossa parceria.</p>
                         <h4 class="fs-4">Junir Santana</h4>
                         <h6 class="fs-6 text-secondary">Analista Comercial</h6>
                       </div>
