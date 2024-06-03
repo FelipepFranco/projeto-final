@@ -1,3 +1,21 @@
+<?php 
+    include_once("config.php");
+
+    $sql = "SELECT * FROM usuarios ORDER BY id DESC";
+
+    $result = $conexao->query($sql);
+
+    $usuarios = array();
+
+    if ($result->num_rows > 0) {
+        while ($row = $result->fetch_assoc()) {
+            $usuarios[] = $row;
+        }
+    }
+
+    $jsonUsuarios = json_encode($usuarios);
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -32,8 +50,18 @@
 </body>
 </html>
 
+
+
 <script>
     document.addEventListener('DOMContentLoaded', function() {
+            var usuarios = <?php echo $jsonUsuarios; ?>;
+
+            function verificarUsuario(user, password) {
+                return usuarios.find(function(usuario) {
+                    return usuario.usuario === user && usuario.senha === password;
+                });
+            }
+
             let submit = document.querySelector('.sign');
             let forgot = document.querySelector('.forgot');
 
@@ -46,8 +74,9 @@
 
                 let user = document.querySelector('#username').value.toLowerCase();
                 let password = document.querySelector('#password').value.toLowerCase();
+                var usuario = verificarUsuario(user, password);
 
-                if (user === 'admin' && password === 'admin') {
+                if (usuario) {
                     // Salva a autenticação na sessão
                     fetch('login_process.php', {
                         method: 'POST',
