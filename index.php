@@ -265,7 +265,7 @@
   </main>
 
   <footer class="bg-darkBlue text-white bg-darkBlue copyright">
-    <p>&copy; 2024 Minha Empresa. Todos os direitos reservados.</p>
+    <p>&copy; 2024 Minha Batata. Todos os direitos reservados.</p>
   </footer>
 
   <script>
