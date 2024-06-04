@@ -23,14 +23,14 @@
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/inputmask/5.0.7-beta.19/inputmask.min.js"></script> -->
  
   <!-- Title -->
-  <title class="fs-1 fw-bold">Batata</title>
+  <title class="fs-1 fw-bold">NXS</title>
 </head>
 
 <body>
   <header class="bg-darkBlue fixed-top">
     <nav class="navbar navbar-expand-lg  header-expand">
       <div class="container-fluid">
-        <a class="navbar-brand text-white fs-3 fw-bold" href="#">Batata</a>
+        <a class="navbar-brand text-white fs-3 fw-bold" href="#">NXS</a>
         <button class="navbar-toggler border border-white text-white " type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false"
         aria-label="Toggle navigation">
@@ -67,7 +67,7 @@
     
     <section id="sobre">
       <div class="container-home text-white">
-        <h1 class="fw-semibold fs-5 text-white"><span style="color: #7CAED4">||</span> Batata</h1>
+        <h1 class="fw-semibold fs-5 text-white"><span style="color: #7CAED4">||</span> NXS</h1>
         <p class="fs-1 fw-bold">Transforme Sua <br>Visão em <span style="color: #7CAED4">Realidade</span></p>
         <p class="fw-semibold">Experiência e Inovação Tecnológica ao Seu Alcance</p>
         <button class="btn btn-primary-dark fw-semibold text-white fs-6">Conheça nossos produtos</button>
@@ -81,7 +81,7 @@
         </div>
         <div class="container-hist text-white">
           <h1 class="fw-semibold fs-1 text-white">Sobre</h1>
-          <p class="fw-normal text-secondary">Na Batata, somos pioneiros na vanguarda da tecnologia, convertendo visões em realidade digital. Nossa equipe altamente qualificada e apaixonada oferece soluções personalizadas em desenvolvimento de sistemas, design gráfico e edição de vídeo. Valorizamos a colaboração e a inovação, trabalhando lado a lado com nossos clientes para garantir que suas expectativas sejam não apenas atendidas, mas superadas. Com um compromisso inabalável com a excelência e a adaptação constante às últimas tendências tecnológicas, na Batata, estamos moldando o futuro digital.</p>
+          <p class="fw-normal text-secondary">Na NXS, somos pioneiros na vanguarda da tecnologia, convertendo visões em realidade digital. Nossa equipe altamente qualificada e apaixonada oferece soluções personalizadas em desenvolvimento de sistemas, design gráfico e edição de vídeo. Valorizamos a colaboração e a inovação, trabalhando lado a lado com nossos clientes para garantir que suas expectativas sejam não apenas atendidas, mas superadas. Com um compromisso inabalável com a excelência e a adaptação constante às últimas tendências tecnológicas, na NXS, estamos moldando o futuro digital.</p>
         </div>
       </div>
     </section>
@@ -146,7 +146,7 @@
                         <i class="bi bi-star-half text-warning"></i>
                       </div>
                       <div class="content content-testimonial">
-                        <p class="text-secondary">A Batata é uma verdadeira parceira no processo criativo. Sua abordagem inovadora e expertise em design gráfico elevaram significativamente a qualidade de nossos projetos. Além disso, a comunicação transparente e a capacidade de entrega dentro do prazo são pontos fortes da equipe. Estamos impressionados com o nível de compromisso e profissionalismo que a Batata traz para cada projeto.</p>
+                        <p class="text-secondary">A NXS é uma verdadeira parceira no processo criativo. Sua abordagem inovadora e expertise em design gráfico elevaram significativamente a qualidade de nossos projetos. Além disso, a comunicação transparente e a capacidade de entrega dentro do prazo são pontos fortes da equipe. Estamos impressionados com o nível de compromisso e profissionalismo que a NXS traz para cada projeto.</p>
                         <h4 class="fs-4">Wagner Souza</h4>
                         <h5 class="fs-6 text-secondary">Assistente de vendas</h5>
                       </div>
@@ -167,7 +167,7 @@
                         <i class="bi bi-star-fill text-warning"></i>
                       </div>
                       <div class="content content-testimonial">
-                        <p class="text-secondary">A parceria com a Batata foi fundamental para o sucesso de nossos projetos digitais. A equipe demonstrou uma habilidade excepcional em compreender nossas necessidades e traduzi-las em soluções tecnológicas de alta qualidade. A atenção ao detalhe e a paixão pela inovação são evidentes em cada entrega. Recomendo fortemente a Batata para qualquer empresa que busca uma abordagem inovadora e confiável para o desenvolvimento digital.</p>
+                        <p class="text-secondary">A parceria com a NXS foi fundamental para o sucesso de nossos projetos digitais. A equipe demonstrou uma habilidade excepcional em compreender nossas necessidades e traduzi-las em soluções tecnológicas de alta qualidade. A atenção ao detalhe e a paixão pela inovação são evidentes em cada entrega. Recomendo fortemente a NXS para qualquer empresa que busca uma abordagem inovadora e confiável para o desenvolvimento digital.</p>
                         <h4 class="fs-4">Richard Leandro</h4>
                         <h5 class="fs-6 text-secondary">Web developer</h5>
                       </div>
@@ -188,7 +188,7 @@
                         <i class="bi bi-star-half text-warning"></i>
                       </div>
                       <div class="content content-testimonial">
-                        <p class="text-secondary">Trabalhar com a Batata foi uma experiência transformadora para nossa empresa. Eles não apenas desenvolveram sistemas eficientes e escaláveis, mas também ofereceram uma orientação estratégica valiosa em relação à nossa infraestrutura tecnológica. A equipe da Batata é altamente profissional e comprometida com a excelência. Estamos extremamente satisfeitos com os resultados e ansiosos para continuar nossa parceria.</p>
+                        <p class="text-secondary">Trabalhar com a NXS foi uma experiência transformadora para nossa empresa. Eles não apenas desenvolveram sistemas eficientes e escaláveis, mas também ofereceram uma orientação estratégica valiosa em relação à nossa infraestrutura tecnológica. A equipe da NXS é altamente profissional e comprometida com a excelência. Estamos extremamente satisfeitos com os resultados e ansiosos para continuar nossa parceria.</p>
                         <h4 class="fs-4">Junir Santana</h4>
                         <h6 class="fs-6 text-secondary">Analista Comercial</h6>
                       </div>
@@ -265,7 +265,7 @@
   </main>
 
   <footer class="bg-darkBlue text-white bg-darkBlue copyright">
-    <p>&copy; 2024 Minha Batata. Todos os direitos reservados.</p>
+    <p>&copy; 2024 Minha NXS. Todos os direitos reservados.</p>
   </footer>
 
   <script>
