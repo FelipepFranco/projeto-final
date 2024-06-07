@@ -30,7 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 } else {
     echo "<script>
                 alert('Não foi possivel enviar!');
-                window.location.href = 'index.php';
+                window.location.href = 'index.g';
               </script>";
     exit();
 }

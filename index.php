@@ -55,7 +55,7 @@
               <a class="nav-link text-white" href="#contato">Contato</a>
             </li>
             <li class="nav-item">
-              <button type="button" class="btn btn-primary">Fale Conosco</button>
+              <a href="login.php" type="button" class="btn btn-primary">Acesse</a>
             </li>
           </ul>
         </div>
