@@ -19,13 +19,19 @@ Os itens específicos que buscamos atender são:
 
 Através da nossa landing page, buscamos engajar nossos visitantes com conteúdo relevante e informativo sobre como nossas soluções tecnológicas contribuem para esses objetivos. Além disso, oferecemos um formulário para a captação de potenciais leads e feedbacks, permitindo-nos interagir diretamente com nossos stakeholders e entender melhor suas necessidades e expectativas.
 
+- **Form**:
+
 ![Imagem do formulário](https://github.com/FelipepFranco/projeto-final/blob/main/assets/img/form.png)
 
 Junto com o projeto, temos o campo de login, onde somente usuários (administradores) cadastrados no nosso banco de dados podem acessar. Este campo dá acesso à tela de exibição dos dados dos nossos leads.
 
+- **Tela de Login**:
+
 ![Imagem do login](https://github.com/FelipepFranco/projeto-final/blob/main/assets/img/login.png)
 
 Na tela de dados, implementamos um CRUD (Create, Read, Update, Delete) para manipular os dados do banco diretamente pela interface. Utilizamos a biblioteca DataTables para facilitar a visualização e a interação com os dados de forma dinâmica e eficiente.
+
+- **Tela dos Dados do banco**:
 
 ![Imagem dos dados](https://github.com/FelipepFranco/projeto-final/blob/main/assets/img/dados.png)
 
